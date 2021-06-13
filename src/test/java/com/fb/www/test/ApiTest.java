@@ -13,11 +13,12 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-package com.khelacademy.www.test;
+package com.fb.www.test;
 
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.SpringBootTest.WebEnvironment;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -26,6 +27,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * API unit test
  */
 @RunWith(SpringJUnit4ClassRunner.class)
+@SpringBootConfiguration
 @SpringBootTest(webEnvironment = WebEnvironment.DEFINED_PORT)
 public class ApiTest {
 

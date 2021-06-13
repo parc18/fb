@@ -8,8 +8,7 @@ import org.springframework.http.ResponseEntity;
 
 import com.fb.dto.UserDto;
 import com.fb.model.BasicUserDetails;
-import com.khelacademy.www.pojos.BookingRequestObject;
-import com.khelacademy.www.pojos.User;
+import com.fb.www.pojos.User;
 
 public interface UserDao {
 	Response getUserById(Integer userId) throws SQLException;

@@ -32,16 +32,16 @@ import com.fb.dto.UserDto;
 import com.fb.model.AdvancedUserDetail;
 import com.fb.model.BasicUserDetails;
 import com.fb.model.UserUpdate;
+import com.fb.service.JwtUserDetailsService;
 import com.fb.utils.UserUtils;
-import com.khelacademy.service.JwtUserDetailsService;
-import com.khelacademy.www.pojos.ApiFormatter;
-import com.khelacademy.www.pojos.MyErrors;
-import com.khelacademy.www.pojos.User;
-import com.khelacademy.www.services.PresenceStatus;
-import com.khelacademy.www.services.ServiceUtil;
-import com.khelacademy.www.utils.DBArrow;
+import com.fb.www.pojos.ApiFormatter;
+import com.fb.www.pojos.MyErrors;
+import com.fb.www.pojos.User;
+import com.fb.www.services.PresenceStatus;
+import com.fb.www.services.ServiceUtil;
+import com.fb.www.utils.DBArrow;
+import com.fb.www.utils.SMSService;
 import com.fb.utils.EmailService;
-import com.khelacademy.www.utils.SMSService;
 import com.fb.utils.UserConstants;
 
 @Component

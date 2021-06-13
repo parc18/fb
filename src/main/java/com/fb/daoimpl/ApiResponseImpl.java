@@ -5,9 +5,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import com.fb.dao.FbApiRespose;
-import com.khelacademy.www.pojos.ApiFormatter;
-import com.khelacademy.www.pojos.MyErrors;
-import com.khelacademy.www.services.ServiceUtil;
+import com.fb.www.pojos.ApiFormatter;
+import com.fb.www.pojos.MyErrors;
+import com.fb.www.services.ServiceUtil;
 @Service
 public class ApiResponseImpl implements FbApiRespose {
 

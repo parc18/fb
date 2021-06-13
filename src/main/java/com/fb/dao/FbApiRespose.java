@@ -2,8 +2,8 @@ package com.fb.dao;
 
 import org.springframework.http.ResponseEntity;
 
-import com.khelacademy.www.pojos.ApiFormatter;
-import com.khelacademy.www.services.ServiceUtil;
+import com.fb.www.pojos.ApiFormatter;
+import com.fb.www.services.ServiceUtil;
 
 public interface FbApiRespose {
 	public <T> ResponseEntity<T> successResponse(T E);
