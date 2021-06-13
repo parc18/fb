@@ -1,14 +1,15 @@
 spring:
   jersey:
     type: filter
-    
+  main:
+    web-application-type: none    
 holon:
   jersey:
     forwardOn404: true
     
 server:
   port: 9999
-  
+
 logging:
   level:
     org.springframework.web: ERROR
