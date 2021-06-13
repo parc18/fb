@@ -6,8 +6,8 @@ import javax.ws.rs.core.Response;
 
 import org.springframework.http.ResponseEntity;
 
+import com.fb.dto.UserDto;
 import com.fb.model.BasicUserDetails;
-import com.khelacademy.dto.UserDto;
 import com.khelacademy.www.pojos.BookingRequestObject;
 import com.khelacademy.www.pojos.User;
 

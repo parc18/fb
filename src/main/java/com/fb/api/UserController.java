@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.fb.dao.UserDao;
-import com.khelacademy.dto.UserDto;
+import com.fb.dto.UserDto;
 import com.fb.utils.UserUtils;
 
 @RestController

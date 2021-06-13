@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.fb.dao.FbApiRespose;
 import com.fb.dao.ProductDao;
+import com.fb.dto.UserDto;
 import com.fb.utils.UserUtils;
-import com.khelacademy.dto.UserDto;
 
 @RestController
 @CrossOrigin
