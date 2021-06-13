@@ -26,12 +26,12 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 
+import com.fb.config.JwtTokenUtil;
 import com.fb.dao.UserDao;
 import com.fb.model.AdvancedUserDetail;
 import com.fb.model.BasicUserDetails;
 import com.fb.model.UserUpdate;
 import com.fb.utils.UserUtils;
-import com.khelacademy.config.JwtTokenUtil;
 import com.khelacademy.dto.UserDto;
 import com.khelacademy.service.JwtUserDetailsService;
 import com.khelacademy.www.pojos.ApiFormatter;

@@ -1,12 +1,17 @@
 package com.fb.document;
 
+import java.io.Serializable;
 import java.util.List;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 @Document
-public class Product extends BaseDocument {
+public class Product extends BaseDocument implements Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -1087282761591235153L;
 	@Id
 	private String id;
 	private String category;
@@ -27,6 +32,7 @@ public class Product extends BaseDocument {
 	private double revenue;
 	private boolean isDiscounted;
 	private String updatedByUserId;
+	private List<String> imgUrls;
 	public String getId() {
 		return id;
 	}
@@ -140,6 +146,12 @@ public class Product extends BaseDocument {
 	}
 	public void setUpdatedByUserId(String updatedByUserId) {
 		this.updatedByUserId = updatedByUserId;
+	}
+	public List<String> getImgUrls() {
+		return imgUrls;
+	}
+	public void setImgUrls(List<String> imgUrls) {
+		this.imgUrls = imgUrls;
 	}
 
 }
